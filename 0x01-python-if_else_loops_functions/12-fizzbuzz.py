@@ -6,4 +6,4 @@ def fizzbuzz():
         elif i % 5 == 0:
             print("Buzz")
         else:
-            print("{:d}".format(i), end="\n" if i == 101 else " ")
+            print("{:d}".format(i), " " if i < 101 else end="\n")
