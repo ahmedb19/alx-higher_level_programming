@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i >= ord('z') and i <= ord('a'):
-    print('{:c}'.format(i), if i != y else 'Y')
+for i in range(ord('z'), ord('a') + 1):
+    print('{:c}'.format(i))
